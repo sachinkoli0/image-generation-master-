@@ -23,8 +23,8 @@
         "supportURL": "https://sachinkoli0.github.io/image-generation-master-/support/",
         "privacyPolicyURL": "https://sachinkoli0.github.io/image-generation-master-/privacy/",
         "termsOfServiceURL": "https://sachinkoli0.github.io/image-generation-master-/terms/",
-        "logo": "assets/icon.svg",
-        "composerIcon": "assets/icon.svg"
+        "logo": "assets/icon.png",
+        "composerIcon": "assets/icon.png"
       },
       "review": {
         "prompts": [
