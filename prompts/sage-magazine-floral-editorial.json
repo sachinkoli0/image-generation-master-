@@ -1,0 +1,43 @@
+{
+  "title": "Sage magazine floral editorial",
+  "reference_style": "Powder-blue background, sage panel, oversized serif title and botanical illustration framing.",
+  "reverse_engineered_prompt": {
+    "concept": "Elegant spring fashion magazine cover with oversized serif typography and delicate botanical illustration.",
+    "subject": {
+      "type": "Young adult female fashion model",
+      "pose": "Back turned three-quarters to camera, looking over shoulder",
+      "expression": "Calm, poised and direct",
+      "wardrobe": "Minimalist muted sage-green satin backless evening dress",
+      "hair": "Long auburn-brown hair, half-up styling with soft fringe",
+      "accessories": "Tiny flower hair clip and delicate earrings"
+    },
+    "composition": {
+      "format": "Vertical 4:5 editorial cover",
+      "background": "Solid pale powder-blue",
+      "panel": "Large muted teal rounded rectangle behind model, centered with generous margins",
+      "florals": "Blue-violet botanical line-art flowers entering from upper-left and lower-right corners",
+      "subject_layer": "Model overlaps panel and title to create depth"
+    },
+    "typography": {
+      "headline": "SAGE",
+      "style": "Very large high-contrast white Didone serif, with a delicate outlined duplicate offset over the filled letters",
+      "placement": "Across the central panel, partially obscured by model",
+      "hierarchy": "Headline dominates; keep all other copy minimal"
+    },
+    "lighting": {
+      "quality": "Soft diffused studio daylight",
+      "skin": "Natural luminous skin texture",
+      "fabric": "Controlled satin highlights"
+    },
+    "camera": {
+      "framing": "Three-quarter back portrait",
+      "lens": "85mm portrait lens",
+      "focus": "Face and upper back crisp"
+    },
+    "post_processing": {
+      "style": "Clean magazine art direction with restrained botanical collage",
+      "finish": "Airy, refined, pastel editorial design"
+    },
+    "negative_prompt": "No awkward shoulder anatomy, extra arms, malformed fingers, messy typography, heavy shadows, watermark, logo."
+  }
+}
