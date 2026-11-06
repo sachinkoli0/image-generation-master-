@@ -10,14 +10,22 @@
 main{max-width:1120px;margin:auto;padding:64px 24px}.tag{color:var(--b);letter-spacing:.16em;text-transform:uppercase;font-size:12px;font-weight:700}
 .hero{padding:60px 0 72px}h1{font-size:clamp(42px,8vw,82px);line-height:1.02;letter-spacing:-.055em;max-width:850px;margin:18px 0}
 p{color:var(--muted);max-width:720px}.hero p{font-size:19px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;background:linear-gradient(110deg,var(--a),var(--b));color:#090b12}.alt{background:var(--panel);color:var(--ink);border:1px solid #30374b}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border:0;border-radius:999px;text-decoration:none;font:700 14px system-ui;cursor:pointer;background:linear-gradient(110deg,var(--a),var(--b));color:#090b12}.alt{background:var(--panel);color:var(--ink);border:1px solid #42465a}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0 64px}
 .card{background:linear-gradient(145deg,#171c2c,#10131e);border:1px solid #2b3144;border-radius:18px;padding:22px}.card h2{font-size:19px;margin:0 0 8px}.card p{margin:0;font-size:14px}
 h2.section{font-size:30px;letter-spacing:-.03em}.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:26px 0 68px}
 .art-card{overflow:hidden;border:1px solid #30374b;border-radius:20px;background:#111522;transition:transform .2s,border-color .2s}.art-card:hover{transform:translateY(-4px);border-color:#8d78d6}
-.art-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#191827}.art-copy{padding:16px 18px 18px}.art-copy h3{font-size:18px;margin:0 0 4px}.art-copy p{font-size:14px;margin:0}
+.art-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#191827}.art-copy{padding:16px 18px 18px}.art-copy h3{font-size:18px;margin:0 0 4px}.art-copy p{font-size:14px;margin:0 0 14px}
 .gallery-intro{margin-top:8px;margin-bottom:24px}footer{border-top:1px solid #292f40;padding-top:24px;font-size:13px}footer a{color:var(--b);margin-right:16px}
-@media(max-width:650px){main{padding:42px 20px}.hero{padding:45px 0 55px}.gallery{grid-template-columns:1fr}.gallery .art-card img{aspect-ratio:16/10}}
+.modal{position:fixed;inset:0;z-index:20;display:none;align-items:center;justify-content:center;padding:20px;background:#05060bdc;backdrop-filter:blur(10px)}.modal.open{display:flex}
+.modal-panel{width:min(940px,100%);max-height:92vh;overflow:auto;background:#111522;border:1px solid #42465a;border-radius:22px;box-shadow:0 24px 90px #0009;padding:20px}
+.modal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}.modal-head h2{margin:0;font-size:22px}
+.close{width:40px;height:40px;border-radius:50%;border:1px solid #454a60;background:#1a2030;color:white;font-size:23px;cursor:pointer}
+.modal-content{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:20px;align-items:start}
+.modal-content img{width:100%;display:block;border-radius:14px;background:#191827}.prompt-label{font-size:12px;color:var(--b);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.prompt-text{white-space:pre-wrap;color:#e7e9f4;background:#0a0d16;border:1px solid #30374b;border-radius:14px;padding:16px;font-size:14px;line-height:1.7;margin:10px 0 14px}
+.modal-actions{display:flex;gap:10px;flex-wrap:wrap}.status{min-height:22px;font-size:13px;color:var(--b);margin-top:8px}
+@media(max-width:700px){main{padding:42px 20px}.hero{padding:45px 0 55px}.gallery{grid-template-columns:1fr}.gallery .art-card img{aspect-ratio:16/10}.modal-content{grid-template-columns:1fr}.modal-panel{padding:15px}.modal{padding:10px}}
 </style>
 </head>
 <body><main>
@@ -33,13 +41,31 @@ h2.section{font-size:30px;letter-spacing:-.03em}.gallery{display:grid;grid-templ
 <article class="card"><h2>Iterative refinement</h2><p>Improve prompts through targeted changes while preserving key constraints.</p></article>
 </section>
 <section id="references"><div class="tag">Visual direction samples</div><h2 class="section">Reference image gallery</h2>
-<p class="gallery-intro">Original visual studies created to demonstrate how a detailed prompt can guide mood, composition, lighting, and art direction.</p>
+<p class="gallery-intro">Open any study to see the full image and the prompt behind its visual direction. You can copy the prompt or open the artwork separately.</p>
 <div class="gallery">
-<article class="art-card"><img src="./assets/reference-editorial.svg" alt="Illustrated fashion editorial portrait in warm botanical studio styling"><div class="art-copy"><h3>Botanical fashion editorial</h3><p>Portrait lighting, natural textures, art-directed styling, and layered foliage.</p></div></article>
-<article class="art-card"><img src="./assets/reference-still-life.svg" alt="Illustrated premium camera and coffee still-life composition"><div class="art-copy"><h3>Product still life</h3><p>Material detail, warm studio light, controlled reflections, and balanced props.</p></div></article>
-<article class="art-card"><img src="./assets/reference-cinema.svg" alt="Illustrated cinematic sunset landscape with a solitary figure"><div class="art-copy"><h3>Cinematic landscape</h3><p>Atmospheric color grading, layered depth, silhouette, and wide composition.</p></div></article>
-<article class="art-card"><img src="./assets/reference-collage.svg" alt="Illustrated experimental fashion portrait collage with geometric layers"><div class="art-copy"><h3>Experimental Photoshop collage</h3><p>Mixed-media layering, graphic geometry, portrait cut-outs, and editorial contrast.</p></div></article>
+<article class="art-card"><img src="./assets/reference-editorial.svg" alt="Illustrated fashion editorial portrait in warm botanical studio styling"><div class="art-copy"><h3>Botanical fashion editorial</h3><p>Portrait lighting, natural textures, art-directed styling, and layered foliage.</p><button class="btn view-btn" onclick="showStudy(0)">View image &amp; prompt ↗</button></div></article>
+<article class="art-card"><img src="./assets/reference-still-life.svg" alt="Illustrated premium camera and coffee still-life composition"><div class="art-copy"><h3>Product still life</h3><p>Material detail, warm studio light, controlled reflections, and balanced props.</p><button class="btn view-btn" onclick="showStudy(1)">View image &amp; prompt ↗</button></div></article>
+<article class="art-card"><img src="./assets/reference-cinema.svg" alt="Illustrated cinematic sunset landscape with a solitary figure"><div class="art-copy"><h3>Cinematic landscape</h3><p>Atmospheric color grading, layered depth, silhouette, and wide composition.</p><button class="btn view-btn" onclick="showStudy(2)">View image &amp; prompt ↗</button></div></article>
+<article class="art-card"><img src="./assets/reference-collage.svg" alt="Illustrated experimental fashion portrait collage with geometric layers"><div class="art-copy"><h3>Experimental Photoshop collage</h3><p>Mixed-media layering, graphic geometry, portrait cut-outs, and editorial contrast.</p><button class="btn view-btn" onclick="showStudy(3)">View image &amp; prompt ↗</button></div></article>
 </div></section>
 <h2 class="section">Made for makers</h2><p>For image creators, designers, photographers, and prompt engineers who want more deliberate results from their image-generation workflow.</p>
 <footer><p>Created by Sachin Chittoriya.</p><a href="./support/">Support</a><a href="./privacy/">Privacy</a><a href="./terms/">Terms</a><a href="https://github.com/sachinkoli0/image-generation-master-">GitHub</a></footer>
-</main></body></html>
+</main>
+<div class="modal" id="studyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this)closeStudy()">
+<div class="modal-panel"><div class="modal-head"><h2 id="modalTitle">Reference study</h2><button class="close" aria-label="Close" onclick="closeStudy()">×</button></div>
+<div class="modal-content"><div><img id="modalImage" src="" alt="Selected reference artwork"></div><div><div class="prompt-label">Image generation prompt</div><div class="prompt-text" id="modalPrompt"></div><div class="modal-actions"><button class="btn" onclick="copyStudyPrompt()">Copy prompt</button><a class="btn alt" id="openImage" href="#" target="_blank" rel="noopener">Open image ↗</a></div><div class="status" id="copyStatus" aria-live="polite"></div></div></div></div>
+</div>
+<script>
+const studies=[
+{title:"Botanical fashion editorial",image:"./assets/reference-editorial.svg",prompt:"Create a refined fashion editorial portrait of a young adult model in a warm botanical studio. Frame the subject from the chest up, positioned slightly right of center, with expressive natural posing and contemporary understated styling. Surround the portrait with layered green leaves and soft organic shapes. Use warm directional afternoon light, gentle highlights on the face, rich forest-green and muted amber tones, subtle film grain, tactile fabric detail, and a sophisticated magazine-editorial composition. Keep the background softly atmospheric and the subject clearly separated. No text, logos, watermark, or extra fingers. 4:3 landscape composition."},
+{title:"Product still life",image:"./assets/reference-still-life.svg",prompt:"Create a premium lifestyle product still-life featuring a beautifully detailed vintage-inspired camera and a ceramic coffee cup arranged on a warm wooden tabletop. Compose the camera as the main subject with the lens facing the viewer, and place a coffee cup and a few restrained botanical props nearby. Use soft directional window light, warm beige and espresso-brown tones, controlled reflections on metal and glass, realistic material textures, gentle shadows, and an elegant commercial-photography finish. Keep the arrangement uncluttered with clear visual hierarchy. No brand names, readable text, logos, or watermark. 4:3 landscape composition."},
+{title:"Cinematic landscape",image:"./assets/reference-cinema.svg",prompt:"Create a cinematic wide landscape at sunset, with layered mountain ridges receding into the distance and a single solitary figure in silhouette on a rocky foreground. Place the figure slightly right of center and let the glowing peach sun illuminate the horizon. Use a restrained palette of dusty rose, muted violet, warm amber, and deep navy. Add atmospheric perspective, subtle haze, detailed terrain, dramatic but natural sky gradients, and filmic color grading. Preserve generous negative space and a strong sense of scale. No text, logos, or watermark. 4:3 landscape composition."},
+{title:"Experimental Photoshop collage",image:"./assets/reference-collage.svg",prompt:"Design an experimental fashion-editorial mixed-media collage centered on a dramatic studio portrait of a young adult model. Combine a clean photographic-style face and upper-body silhouette with overlapping paper textures, angled geometric panels, cut-out shapes, and layered editorial fragments. Use a sophisticated palette of muted lavender, plum, warm cream, and charcoal. Create deliberate depth through offset layers, crisp cut edges, subtle paper grain, and strong asymmetrical balance. Keep the face unobstructed and the composition visually coherent rather than cluttered. No existing brand marks, copied artwork, readable text, or watermark. 4:3 landscape composition."}
+];
+let activePrompt="";
+function showStudy(index){const s=studies[index];if(!s)return;activePrompt=s.prompt;document.getElementById("modalTitle").textContent=s.title;document.getElementById("modalImage").src=s.image;document.getElementById("modalImage").alt=s.title;document.getElementById("modalPrompt").textContent=s.prompt;document.getElementById("openImage").href=s.image;document.getElementById("copyStatus").textContent="";document.getElementById("studyModal").classList.add("open");document.body.style.overflow="hidden";document.querySelector(".close").focus()}
+function closeStudy(){document.getElementById("studyModal").classList.remove("open");document.body.style.overflow=""}
+async function copyStudyPrompt(){const status=document.getElementById("copyStatus");try{await navigator.clipboard.writeText(activePrompt);status.textContent="Prompt copied to clipboard."}catch(e){status.textContent="Clipboard access unavailable. Select and copy the prompt text above."}}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeStudy()});
+</script>
+</body></html>
