@@ -1,0 +1,42 @@
+{
+  "title": "Floral blue fashion poster",
+  "reference_style": "Oversized pale-blue title, formal black tailoring, pink blossom frame and studio-blue atmosphere.",
+  "reverse_engineered_prompt": {
+    "concept": "Luxury pop-culture fashion poster combining a formal portrait, oversized typography and romantic floral cut-outs.",
+    "subject": {
+      "type": "Young adult male celebrity-inspired editorial subject",
+      "pose": "Three-quarter standing portrait, shoulders angled slightly, head turned toward camera",
+      "expression": "Playful candid expression with a small flower placed over one eye",
+      "wardrobe": "Black velvet tuxedo jacket, crisp white shirt and black bow tie"
+    },
+    "composition": {
+      "format": "Vertical 9:16 poster",
+      "layout": "Subject centered in front of giant title letters; flowers overlap the shoulders and lower foreground",
+      "background": "Deep-to-bright cobalt and powder-blue gradient with soft luminous center",
+      "florals": "Dense pale-pink blossoms and delicate branches arranged as a halo behind the subject, with a large foreground bouquet"
+    },
+    "typography": {
+      "headline": "MUSIC",
+      "style": "Extra-large condensed uppercase sans serif in pale icy blue, spanning almost the full width",
+      "subtitle": "THE BEST IN THE WORLD",
+      "placement": "Small centered white uppercase line above headline",
+      "layering": "Typography behind subject and partially hidden by floral elements"
+    },
+    "lighting": {
+      "key": "Soft frontal beauty light",
+      "rim": "Cool blue edge light",
+      "contrast": "Moderate, polished editorial contrast",
+      "palette": "Cobalt, ice blue, blush pink, black and white"
+    },
+    "camera": {
+      "framing": "Waist-up to three-quarter portrait",
+      "lens": "85mm portrait look",
+      "depth_of_field": "Subject crisp, floral layers slightly varied in focus"
+    },
+    "post_processing": {
+      "composite": "Precise subject masking, flower cut-outs, oversized type layers and atmospheric blue glow",
+      "finish": "Glossy music-magazine cover with tactile botanical detail"
+    },
+    "negative_prompt": "No malformed hands, duplicate flowers fused to face, unreadable title, excessive bloom, logos, watermark, plastic skin."
+  }
+}
