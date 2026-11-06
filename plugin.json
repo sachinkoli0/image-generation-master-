@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "image-generation-master",
+  "version": "1.0.0",
+  "description": "A comprehensive image-generation prompt engineering skill for visual concepts, photography, fashion editorials, digital art, and iterative prompt refinement.",
+  "author": {
+    "name": "Sachin Chittoriya"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Image Generation Master",
+        "shortDescription": "Pro image prompts & concepts",
+        "longDescription": "Image Generation Master helps image creators, designers, photographers, and prompt engineers turn ideas and visual references into detailed image-generation prompts. It provides guidance across visual categories and styles, fashion and editorial concepts, photography, digital art, composition, camera and lighting language, technical specifications, copyright-aware creation, quality checks, and prompt troubleshooting.",
+        "developerName": "Sachin Chittoriya",
+        "category": "Creativity",
+        "defaultPrompt": [
+          "Create a detailed image-generation prompt for my idea.",
+          "Develop a fresh fashion editorial concept and prompt.",
+          "Improve my prompt with camera, lighting, and composition details."
+        ],
+        "websiteURL": "https://sachinkoli0.github.io/image-generation-master-/",
+        "supportURL": "https://sachinkoli0.github.io/image-generation-master-/support/",
+        "privacyPolicyURL": "https://sachinkoli0.github.io/image-generation-master-/privacy/",
+        "termsOfServiceURL": "https://sachinkoli0.github.io/image-generation-master-/terms/",
+        "logo": "assets/icon.svg",
+        "composerIcon": "assets/icon.svg"
+      },
+      "review": {
+        "prompts": [
+          "Create a detailed image-generation prompt for a cinematic portrait using my concept and reference image.",
+          "Develop an original fashion editorial concept with a clear art direction, styling, composition, and lighting.",
+          "Improve this image prompt while preserving the subject, identity, pose, and important visual constraints.",
+          "Help me troubleshoot why an appropriate professional fashion image prompt may be getting flagged, without bypassing safety rules."
+        ]
+      },
+      "publication": {
+        "release_notes": "Initial public package. Includes the original Image Generation Master skill, project website, support information, privacy policy, and terms of use.",
+        "countries": []
+      }
+    }
+  }
+}
