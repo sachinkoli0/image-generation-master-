@@ -1,0 +1,43 @@
+{
+  "title": "Floating music-player editorial",
+  "reference_style": "Minimal grey studio portrait surrounded by floating music interfaces and subtle light trails.",
+  "reverse_engineered_prompt": {
+    "concept": "Minimal futuristic music campaign portrait with floating playback cards arranged in spatial depth.",
+    "subject": {
+      "type": "Young adult female music artist",
+      "pose": "Standing centered, torso angled subtly, chin lifted, looking directly at camera",
+      "expression": "Composed, self-assured, understated",
+      "wardrobe": "Oversized structured black blazer with minimal jewelry",
+      "hair": "Straight dark shoulder-length hair, center part"
+    },
+    "composition": {
+      "format": "Vertical 9:16 campaign visual",
+      "background": "Soft pale-grey studio gradient with subtle atmospheric blur",
+      "subject_placement": "Centered and dominant, visible from waist or hips upward",
+      "floating_ui": "Six to eight rounded rectangular music-player cards orbit around the subject at different depths; foreground cards are partially cropped and blurred",
+      "depth": "Cards at varied scales, some crisp and some defocused, with realistic perspective"
+    },
+    "interface_design": {
+      "cards": "Dark charcoal translucent panels mixed with frosted white panels, rounded corners and subtle shadows",
+      "content": "Small square album art, track title, artist name, progress line, timestamps and previous/pause/next controls",
+      "accents": "Small green music-service-style circular indicators without reproducing exact trademarks",
+      "legibility": "Use plausible short generic track names and clean interface typography"
+    },
+    "lighting": {
+      "key": "Large softbox frontal light",
+      "edge": "Subtle warm highlights along blazer and hair",
+      "effects": "Fine gold particle trails and tiny glints connecting some cards"
+    },
+    "camera": {
+      "framing": "Medium portrait",
+      "lens": "70-85mm",
+      "aperture": "f/2.8",
+      "focus": "Eyes and face sharp; near and far interface cards softly blurred"
+    },
+    "post_processing": {
+      "style": "High-end 3D compositing with photographic portrait realism",
+      "finish": "Cool neutral palette, restrained gold accents, clean digital campaign aesthetic"
+    },
+    "negative_prompt": "No extra UI clutter, garbled interface text, duplicated controls, distorted face, extra fingers, visible trademarks, watermark."
+  }
+}
