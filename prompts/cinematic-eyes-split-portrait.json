@@ -1,0 +1,41 @@
+{
+  "title": "Cinematic split-light eyes portrait",
+  "reference_style": "Intimate close-up with a horizontal eye strip, handwritten title and dramatic chiaroscuro.",
+  "reverse_engineered_prompt": {
+    "concept": "Moody fine-art beauty portrait using a horizontal split-light band to isolate and emphasize the eyes.",
+    "subject": {
+      "type": "Young adult female beauty model",
+      "framing": "Tight head-and-shoulders close-up",
+      "expression": "Quiet, introspective gaze directly toward camera, lips slightly parted",
+      "hair": "Long auburn-brown hair with soft fringe framing the face",
+      "accessories": "Fine silver chain necklace with a small oval pendant"
+    },
+    "composition": {
+      "format": "Vertical portrait crop",
+      "background": "Near-black seamless studio background",
+      "face_position": "Face fills most of frame, slightly right of center",
+      "signature_effect": "A narrow horizontal rectangular band of warm light crosses both eyes, while the rest of the face remains in deeper shadow",
+      "text_overlay": "Small elegant handwritten script reading 'Those eyes' placed across the lit band"
+    },
+    "lighting": {
+      "key": "Hard-edged narrow strip light or projection across eye region",
+      "fill": "Very low frontal fill",
+      "shadow": "Deep chiaroscuro around cheeks, jaw and hair",
+      "color_temperature": "Warm neutral 4000K-4500K",
+      "texture": "Natural pores, fine hair detail and realistic skin highlights"
+    },
+    "camera": {
+      "lens": "85mm or 105mm portrait lens",
+      "aperture": "f/2.0",
+      "focus": "Critical sharp focus on both eyes and eyelashes",
+      "perspective": "Eye-level intimate close-up"
+    },
+    "post_processing": {
+      "color_grade": "Warm bronze skin highlights against deep neutral blacks",
+      "retouching": "Minimal editorial retouching preserving pores and fine texture",
+      "composite": "Precisely masked horizontal light band with clean rectangular edges and subtle film grain",
+      "finish": "Cinematic luxury fragrance or music single artwork"
+    },
+    "negative_prompt": "No crossed eyes, asymmetrical pupils, plastic skin, over-smoothed texture, extra facial features, illegible script, watermark."
+  }
+}
