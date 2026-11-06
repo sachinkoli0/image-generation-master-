@@ -1,0 +1,45 @@
+{
+  "title": "Sunflower typographic editorial",
+  "reference_style": "Sky-blue poster, oversized dimensional lettering, torn-paper collage and sunflower portrait.",
+  "reverse_engineered_prompt": {
+    "concept": "Playful botanical fashion poster with oversized dimensional typography and a cut-paper collage aesthetic.",
+    "subject": {
+      "type": "Young woman in a waist-up fashion portrait",
+      "pose": "Seated or leaning sideways across the lower-left foreground, head turned gently down and toward the side",
+      "expression": "Soft, candid, relaxed",
+      "wardrobe": "White cotton blouse with delicate tiny floral print, gathered neckline and short puff sleeves",
+      "hair": "Long dark hair, loose and naturally windswept"
+    },
+    "composition": {
+      "format": "Vertical 9:16 poster",
+      "layout": "Oversized black dimensional display lettering occupies the center and right, portrait overlaps the lettering in the lower half",
+      "background": "Flat bright cyan-blue field",
+      "collage_elements": "Cream torn-paper pieces, small peach paper tabs and large yellow sunflowers clustered behind the subject",
+      "depth": "Layered cut-outs with subtle drop shadows and clear foreground-background separation"
+    },
+    "typography": {
+      "headline": "SUNFLOWER",
+      "style": "Huge black inflated or glossy 3D display letters with cream offset extrusion and thin edge highlights",
+      "secondary_text": "HAPPIEST",
+      "placement": "Narrow vertical condensed black type beside the headline",
+      "microcopy": "Tiny editorial labels near the outer margins",
+      "legibility": "Keep headline forms bold and readable; preserve clean letter contours"
+    },
+    "lighting": {
+      "quality": "Bright soft daylight",
+      "shadows": "Gentle paper and subject shadows",
+      "palette": "Cyan, sunflower yellow, cream, peach, black and natural skin tones"
+    },
+    "camera": {
+      "framing": "Fashion portrait, medium crop",
+      "perspective": "Slightly elevated candid angle",
+      "lens_character": "Natural 50mm editorial perspective"
+    },
+    "post_processing": {
+      "method": "Photoshop-style compositing",
+      "texture": "Scanned paper grain, botanical cut-outs, slight print softness",
+      "finish": "Cheerful contemporary scrapbook fashion campaign"
+    },
+    "negative_prompt": "No extra limbs, distorted hands, duplicated facial features, illegible typography, watermarks, brand logos, cluttered collage, harsh flash."
+  }
+}
