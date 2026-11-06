@@ -1,0 +1,79 @@
+{
+  "title": "Urban Music Editorial Poster",
+  "subject": {
+    "type": "Young adult male fashion model, full-body urban editorial portrait",
+    "appearance": "Short dark hair, neatly groomed facial hair, medium-brown skin tone, athletic-average build",
+    "wardrobe": {
+      "outfit": "All-black tailored oversized suit with black shirt and black dress shoes",
+      "fit": "Relaxed modern tailoring with softly structured shoulders and loose trousers",
+      "accessories": "No prominent jewelry or visible accessories"
+    },
+    "pose": {
+      "body": "Dynamic wide stance with knees bent, torso leaning diagonally",
+      "arms": "Both arms extended in expressive opposite directions, palms open and fingers spread",
+      "expression": "Confident, direct, energetic expression toward camera"
+    }
+  },
+  "scene": {
+    "location": "Modern urban architectural street with glass, steel and concrete structures",
+    "background": "Softly defocused city architecture, dark asphalt foreground, cool desaturated charcoal and blue-grey palette",
+    "typography": {
+      "text": "TAKE A LOOK AT THESE DIAMONDS WRAPPED IN A LIFETIME",
+      "style": "Oversized uppercase extra-bold white sans-serif display type",
+      "placement": "Large stacked lines across the upper and middle background",
+      "layering": "Behind the model, with parts naturally occluded by the subject"
+    },
+    "music_player_ui": {
+      "position": "Wide horizontal floating panel across the lower-middle frame, behind the model",
+      "style": "Frosted translucent glassmorphism, rounded corners, subtle white border and soft background blur",
+      "elements": [
+        "Square album artwork thumbnail at left",
+        "Track title and artist text",
+        "Audio waveform at upper right",
+        "Playback progress bar with elapsed and remaining time",
+        "Favorite, previous, play, next and playlist controls"
+      ],
+      "display_text": {
+        "title": "Music Player",
+        "artist": "Artist",
+        "elapsed": "0:42",
+        "remaining": "-3:34"
+      }
+    }
+  },
+  "lighting": {
+    "source": "Soft diffused outdoor daylight",
+    "temperature": "5500K-6500K",
+    "contrast": "Moderate, cinematic low-key contrast",
+    "subject": "Controlled highlights on face, suit edges and hands",
+    "background": "Soft architectural reflections with subdued highlights"
+  },
+  "camera": {
+    "look": "Professional full-frame fashion photography",
+    "lens": "85mm portrait lens",
+    "aperture": "f/2.0-f/2.8",
+    "perspective": "Eye-level full-body portrait",
+    "focus": "Sharp subject with shallow depth of field and blurred architecture",
+    "orientation": "Vertical",
+    "aspect_ratio": "3:4"
+  },
+  "post_processing": {
+    "software": "Adobe Lightroom Classic and Adobe Photoshop",
+    "color_grade": "Cool-neutral charcoal, muted blue-green shadows, natural skin tones and soft silver highlights",
+    "contrast": "Deep blacks with controlled highlights",
+    "compositing": [
+      "Carefully masked model cutout",
+      "Oversized perspective-adjusted typography behind subject",
+      "Frosted-glass music player interface",
+      "Subtle edge glow, soft shadow and background blur",
+      "Consistent light direction and realistic occlusion"
+    ],
+    "finish": "High-end cinematic urban music-poster editorial"
+  },
+  "output": {
+    "aspect_ratio": "3:4",
+    "reference_image_dimensions": "1152 x 1536",
+    "quality": "High-detail editorial composite",
+    "negative_prompt": "No extra limbs, malformed hands, duplicated fingers, distorted face, unreadable UI text, random logos, watermark, excessive glow, plastic skin, or cluttered composition"
+  }
+}
